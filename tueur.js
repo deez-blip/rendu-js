@@ -72,11 +72,6 @@ for (let i = 0; i <= 4; i++) {
     survivors[i].caracteristique = cara
   }
 
-let array = ["a", "b", "c"]
-let index = 1
-array.splice(index, 1)
-console.log(array)
-
 let fin = 0
 while (Jason.hp > 0 && survivors.length > 0) {
     let random = getRandomInt(0,survivors.length - 1)

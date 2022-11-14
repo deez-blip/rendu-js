@@ -1,9 +1,3 @@
-function newContent() {
-    document.open();
-    document.write("<h1>Out with the old, in with the new!</h1>");
-    document.close();
-  } 
-
   function addElement() {
     // create a new div element
     const newDiv = document.createElement("div");
@@ -64,11 +58,6 @@ pass.addEventListener('click', function(){
     activePLayer.innerHTML = "Au tour du " + active;
 })
 
-let allBatons = []
-
-for (let i = 0; i <= 14; i++){
-    allBatons.push(test2[i])
-}
 
 let limite = document.querySelectorAll('.baton')
 
