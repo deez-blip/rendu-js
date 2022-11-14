@@ -85,8 +85,9 @@ for (let i = 0; i <= 14; i++) {
             active = nextPlayer(test2,active)
             console.log(active)
             let winner = document.getElementById("winner")
-            winner.innerHTML = "C'est fini " + active + " a gagné";
-            activePLayer.innerHTML = "";
+            winner.innerHTML = "C'est fini " + active + " a gagné"
+            activePLayer.innerHTML = ""
+            pass.remove()
         }else if (nbRetire === 3) {
             nbRetire = 0
             active = nextPlayer(test2,active)
